@@ -1,0 +1,26 @@
+<div class="container">
+  <table class="table table-striped mt-5 ">
+    <thead class="bg-secondary">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Age</th>
+        <th scope="col">Details</th>
+        <th scope="col">Update</th>
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of students">
+        <th scope="row">{{s.id}}</th>
+        <td>{{s.name}}</td>
+        <td>{{s.email}}</td>
+        <td>{{s.age}}</td>
+        <td><a class="navbar-brand btn btn-outline-info" routerLink="/student-details/{{s.id}}">Details??</a></td>
+        <td><a class="navbar-brand btn btn-outline-warning" routerLink="/update/{{s.id}}">Update</a></td>
+        <td><a class="navbar-brand btn btn-outline-danger" routerLink="" (click)="Delete(s.id)">Delete</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

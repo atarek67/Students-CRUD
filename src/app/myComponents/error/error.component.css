@@ -1,0 +1,11 @@
+img{
+
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+h1{
+  text-align: center;
+  color: rgb(177, 106, 221);
+  margin-top: 15px;
+}

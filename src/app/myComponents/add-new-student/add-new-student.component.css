@@ -1,0 +1,18 @@
+#ngIfAge{
+  margin-left: 80px;
+  margin-top: 3px;
+  text-align: center;
+  
+}
+#ngIfEmail{
+  margin-left: 80px;
+  margin-top: 3px;
+  text-align: center;
+  height: 20%;
+}
+#ngIfName{
+  margin-left: 80px;
+  margin-top: 3px;
+  text-align: center;
+  height: 20%;
+}

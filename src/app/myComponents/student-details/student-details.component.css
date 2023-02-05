@@ -1,0 +1,14 @@
+.detailsP {
+  margin-top: 220px;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: #dadbef;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 25px;
+  width: 40%;
+  height: 50%;
+}
+span{
+  font-weight: bold;
+}

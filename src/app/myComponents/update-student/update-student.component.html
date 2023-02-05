@@ -1,0 +1,25 @@
+<div class="container d-flex justify-content-center">
+  <div class="row col-lg-8 d-flex mt-5">
+    <img src="https://www.salesforce.com/content/dam/blogs/ca/Blog%20Posts/shake-up-sales-meeting-og.jpg" alt=""
+      class="">
+  </div>
+  <!-- <div *ngIf="singleStudent"> -->
+  <form class="form mt-5 row col-lg-4 " [formGroup]="editStudent" (ngSubmit)="Update()">
+    <div class="form-group d-flex">
+      <input #name class="form-control mt-3 mt-3 text-center" type="text" formControlName="name" placeholder="Name" />
+    </div>
+
+    <div class="form-group d-flex">
+      <input id="email" class="form-control mt-3  text-center" type="email" formControlName="email"
+        placeholder="Email" />
+    </div>
+    <div class="form-group d-flex">
+      <input #age class="form-control mt-3 text-center" type="text" formControlName="age" placeholder="Age" />
+    </div>
+
+    <div class=" mt-3 text-center">
+      <input class="btn btn-outline-dark col-6" id="Addbtn" type="submit" value="Update this Student !!  " />
+    </div>
+  </form>
+</div>
+<!-- </div> -->
